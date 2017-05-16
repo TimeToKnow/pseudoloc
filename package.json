@@ -1,6 +1,6 @@
 {
   "name": "@t2k/pseudoloc",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Pseudoloc (psuedolocalization) for strings",
   "keywords": [
     "localization",
@@ -33,5 +33,8 @@
   "license": "MIT",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/**/*-test.js"
+  },
+  "publishConfig": {
+    "registry":"http://nexus3:8081/repository/npm-releases/"
   }
 }
